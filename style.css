@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    background-image: url(img.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #4b6c56;
+    display: flex;
+    height: 10vh;
+}
+nav .Logo{
+    font-size: 2rem;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-top: 10px;
+    color: #f2fcf4;
+}
+nav .Menu ul{
+    display: inline-flex;
+    list-style: none;   
+}
+.Menu ul li a{
+    text-decoration: none;
+    color: #f1fff4;
+}
+.Menu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 8px;   
+}
+nav .Menu ul a:hover{
+    color: rgb(0, 0, 0);
+}
