@@ -14,12 +14,12 @@ nav{
     display: flex;
     height: 10vh;
 }
-span{
+.dot{
     color: orange;
     font-size: 2rem;
 }
 nav .Logo{
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin-right: 20%;
     margin-left: 6%;
     margin-top: 15px;
@@ -29,8 +29,8 @@ nav .Logo{
 .Menu ul li{
     display: inline-flex;
     padding-inline: 20px;
-    padding: 25px 5px;
-    margin-left: 40px;
+    padding: 25px 5px 25px 3px; 
+    margin-left: 30px;
     letter-spacing: 0.1cap;
     /* background-color: black; */
 }
@@ -39,6 +39,38 @@ nav .Logo{
     text-decoration: none;
 }
 .Menu ul li  :hover{
-    color: #fbd0be;
+    color: orange;
+}
+.h2{
+    color: white;
+    margin-top: 150px;
+    margin-left: 6%;
+    font-size: 1.5rem;
+    letter-spacing: 0.2cap;
+}
+.h6{
+    color: white;
+    margin-top: 10px;
+    margin-left: 6%;
+    font-size: 1.2rem;
+    letter-spacing: 0.075cap;
+    font-weight: lighter;
+}
+.cfe{
+    color: rgb(255, 166, 0);
+}
+.cfn{
+    color: rgb(242, 160, 8);
+}
+button{
+    margin-left: 6%;
+    margin-top: 2%;
+    font-size: 1rem;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    letter-spacing: 0.05cap;
 }
 
