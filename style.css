@@ -21,19 +21,24 @@ span{
 nav .Logo{
     font-size: 2rem;
     margin-right: 20%;
-    margin-left: 10%;
-    margin-top:10px;
+    margin-left: 6%;
+    margin-top: 15px;
     color: #ffffff;
     letter-spacing: 0.15cap;
 }
 .Menu ul li{
     display: inline-flex;
     padding-inline: 20px;
-    padding: 25px;
+    padding: 25px 5px;
+    margin-left: 40px;
+    letter-spacing: 0.1cap;
     /* background-color: black; */
 }
 .Menu ul li a{
     color: #ffffff;
     text-decoration: none;
+}
+.Menu ul li  :hover{
+    color: #fbd0be;
 }
 
