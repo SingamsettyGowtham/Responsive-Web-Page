@@ -62,6 +62,10 @@ nav .Logo{
 .cfn{
     color: rgb(242, 160, 8);
 }
+.cfg{
+    color: rgb(242, 160, 8);
+    font-weight: bolder;
+}
 button{
     margin-left: 6%;
     margin-top: 2%;
