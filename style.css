@@ -14,26 +14,26 @@ nav{
     display: flex;
     height: 10vh;
 }
+span{
+    color: orange;
+    font-size: 2rem;
+}
 nav .Logo{
     font-size: 2rem;
     margin-right: 20%;
     margin-left: 10%;
-    margin-top: 10px;
-    color: #f2fcf4;
-}
-nav .Menu ul{
-    display: inline-flex;
-    list-style: none;   
-}
-.Menu ul li a{
-    text-decoration: none;
-    color: #f1fff4;
+    margin-top:10px;
+    color: #ffffff;
+    letter-spacing: 0.15cap;
 }
 .Menu ul li{
-    width: 120px;
-    margin: 15px;
-    padding: 8px;   
+    display: inline-flex;
+    padding-inline: 20px;
+    padding: 25px;
+    /* background-color: black; */
 }
-nav .Menu ul a:hover{
-    color: rgb(0, 0, 0);
+.Menu ul li a{
+    color: #ffffff;
+    text-decoration: none;
 }
+
