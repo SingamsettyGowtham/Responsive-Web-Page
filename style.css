@@ -5,12 +5,12 @@
     font-family: 'Poppins' , sans-serif;
 }
 body{
-    background-image: url(img.jpg);
+    background-image: url(img1.jpg);
     background-size: cover;
     box-sizing: border-box;
 }
 nav{
-    background-color: #4b6c56;
+    background-color: transparent;
     display: flex;
     height: 10vh;
 }
