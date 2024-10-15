@@ -14,6 +14,7 @@ body{
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 #main-2{
     background-image: url(img2.jpg);
@@ -26,6 +27,7 @@ nav{
     background-color: transparent;
     display: flex;
     height: 10vh;
+    /* position: fixed; */
 }
 .dot{
     color: orange;
@@ -65,7 +67,6 @@ nav .Logo{
     color: white;
     margin-top: 10px;
     margin-left: 6%;
-    font-size: 1.2rem;
     letter-spacing: 0.075cap;
     font-weight: lighter;
 }
@@ -89,5 +90,8 @@ button{
     border-radius: 5px;
     font-weight: bolder;
     letter-spacing: 0.05cap;
+}
+button:hover{
+    background-color: aliceblue;
 }
 
