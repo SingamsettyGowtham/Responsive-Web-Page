@@ -117,6 +117,10 @@ nav .Logo{
     font-weight: bolder;
     letter-spacing: 0.05cap;
 }
+#rm:hover{
+    cursor: pointer;
+    background-color: rgb(255, 252, 240);
+}
 .words{
     margin-left: 6%;
 }
