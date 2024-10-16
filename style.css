@@ -120,3 +120,10 @@ nav .Logo{
 .words{
     margin-left: 6%;
 }
+.words .au{
+    position: absolute;
+    top: 125%;
+    font-size: 3rem;
+    color: orange;
+    letter-spacing: 0.1cap;
+}
