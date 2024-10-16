@@ -127,3 +127,7 @@ nav .Logo{
     color: orange;
     letter-spacing: 0.1cap;
 }
+.words p{
+    position: absolute;
+    top: 134%;
+}
