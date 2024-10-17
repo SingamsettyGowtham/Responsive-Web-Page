@@ -156,9 +156,16 @@ nav .Logo{
 }
 .grid-9{
     display: grid;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background-color: red;
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
+    height: 125%;
     margin: 50px 150px;
+}
+.grid-9 .items{
+    margin: 20px;
+    height: 90%;
+    background-image: url(img-3.png);
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
