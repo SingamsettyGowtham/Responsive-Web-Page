@@ -146,4 +146,11 @@ nav .Logo{
     margin-top: 100px;
     background-color: rgb(29, 36, 42);
 }
-
+.og{
+    padding-top: 3%;
+    padding-left: 38%;
+    letter-spacing: 0.08cap;
+    color: orange;
+    font-size: 4rem;
+    font-weight: bolder;
+}
