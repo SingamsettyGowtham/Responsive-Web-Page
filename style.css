@@ -171,6 +171,30 @@ nav .Logo{
     height: 16%;
     margin-top: 100px;
     background-color: rgb(29, 36, 42);
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+/* .scroll::-webkit-scrollbar{
+    display: none;
+} */
+.scroll h1{
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    padding: 13px 0px 0px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 20px;
+    letter-spacing: 0.02cap;
+}
+.scroll .cf{
+    background-color: orange;
+    color: rgb(29, 36, 42);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.2);
 }
 .og{
     padding-top: 3%;
