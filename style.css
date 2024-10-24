@@ -219,6 +219,10 @@ nav .Logo{
     height: 125%;
     margin: 50px 150px;
 }
+.grid-9 .items:hover{
+    cursor: pointer;
+    border: 2px solid orange;
+}
 .grid-9 .items{
     margin: 20px;
     height: 90%;
