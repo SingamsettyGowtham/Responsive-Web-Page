@@ -266,7 +266,18 @@ nav .Logo{
     height: 58%;
     border-radius: 5px;
 }
-
+#div-main #div-2{
+    background-color: rgb(252, 101, 46);
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    margin-right: 60px;
+    width: 100px;
+    height: 58%;
+    width: 25%;
+    border-radius: 5px;
+}
 #div-main #div-3{
     background-color: rgb(252, 101, 46);
     color: white;
