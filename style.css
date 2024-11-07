@@ -41,6 +41,7 @@ body{
     height: 100vh;
     background-image: url(img3.jpg);
     background-size: cover;
+    opacity: 70%;
 }
 nav{
     background-color: transparent;
@@ -345,6 +346,13 @@ nav .Logo{
     font-size: 0.95rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
+}
+#main-6 #input{
+    padding-top: 15%;
+    padding-left: 40%;
+}
+#input input{
+    display: flex;
 }
 @keyframes seaw{
     0%{
