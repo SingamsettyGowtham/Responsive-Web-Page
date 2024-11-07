@@ -348,12 +348,24 @@ nav .Logo{
     padding: 20px;
 }
 #main-6 #input{
-    padding-top: 15%;
-    padding-left: 40%;
+    padding-top: 10%;
+    padding-left: 35%;
 }
 #input input{
     display: flex;
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 8px;
 }
+#input #msg{
+    height: 150px;
+}
+::placeholder {
+    padding: 25px;
+}
+
 @keyframes seaw{
     0%{
         transform: translateX(0);
